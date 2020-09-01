@@ -19,6 +19,12 @@
 					{{ $product->name }}
 				</div>
 			</div>
+                        <div class="col-lg-12">
+				<div class="form-group">
+					<strong>Category:</strong>
+					{{ $product->category }}
+				</div>
+			</div>
 
 			<div class="col-lg-12">
 				<div class="form-group">

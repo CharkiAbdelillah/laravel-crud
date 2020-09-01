@@ -34,15 +34,21 @@
 				</div>
 			</div>
 
+                        <div class="col-lg-12">
+				<div class="form-group">
+					<strong>Category:</strong>
+					<input type="text" name="category" value="{{ $product->category }}" class="form-control" placeholder="Category">
+				</div>
+			</div>
+
 			<div class="col-lg-12">
 				<div class="form-group">
 					<strong>Detail:</strong>
 					<textarea name="detail" placeholder="Detail" class="form-control">{{ $product->detail }}</textarea>
 				</div>
 			</div>
-
+			
 			<div class="col-lg-12">
-				
 				<button type="submit" class="btn btn-primary">Submit</button>
 			</div>
 		</div>

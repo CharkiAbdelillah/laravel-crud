@@ -32,6 +32,12 @@
 					<input type="text" name="name" class="form-control" placeholder="Name">
 				</div>
 			</div>
+                       <div class="col-lg-12">
+				<div class="form-group">
+					<strong>Category:</strong>
+					<input type="text" name="category" class="form-control" placeholder="Category">
+				</div>
+			</div>
 
 			<div class="col-lg-12">
 				<div class="form-group">

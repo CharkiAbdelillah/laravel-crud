@@ -22,6 +22,7 @@
 		<tr>
 			<th> No </th>
 			<th> Name </th>
+                        <th> Category </th>
 			<th> Detail </th>
 			<th> Action </th>
 		</tr>
@@ -29,6 +30,7 @@
 			<tr>
 				<td> {{ ++$i }} </td>
 				<td> {{ $product->name }} </td>
+                                 <td>  {{ $product->category }} </td>
 				<td> {{ $product->detail }} </td>
 				<td>
 					<form action="{{ route('products.destroy', $product->id) }}" method="POST">
