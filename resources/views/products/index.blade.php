@@ -4,7 +4,7 @@
 	<div class="row">
 		<div class="col-lg-12">
 			<div class="pull-left">
-				<h3> Laravel 6 CRUD Application from Scratch </h3>
+				<h1> Laravel CRUD Application </h1>
 			</div>
 			<div class="pull-right">
 				<a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product </a>
