@@ -9,6 +9,6 @@ class SaisirNombreTest extends TestCase
     /** @test */
     public function is_nambre()
     {
-        $this->assertTrue(Nombre::saisirNombre(44));
+        $this->assertTrue(Nombre::saisirNombre(777));
     }
 }
