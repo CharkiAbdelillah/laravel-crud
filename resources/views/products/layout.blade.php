@@ -8,9 +8,7 @@
 <style>
 	body {
       background: #ccc url("/uploads/media/default/0001/01/0710cad7a1017902166203def268a0df2a5fd545.png") no-repeat fixed center; 
-      }
-
-
+  }
 
 h1 { color: #b48608; font-family: 'Droid serif', serif; font-size: 36px; font-weight: 400; font-style: italic; line-height: 44px; margin: 0 0 12px; text-align: center; }
    table {
